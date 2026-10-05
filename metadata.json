@@ -1,0 +1,6 @@
+{
+  "name": "Ayuki - Premium Japanese Sushi & Makis",
+  "description": "Restaurante japonés exclusivo de sushi y makis de autor con vista de cliente y panel de administración completo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

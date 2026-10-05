@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Cormorant Garamond", "Shippori Mincho", Georgia, serif;
+    --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    --font-japanese: "Shippori Mincho", serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, .font-serif-title {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Subtle traditional Japanese Seigaiha wave pattern */
+.bg-seigaiha {
+  background-color: #EEDBC5;
+  background-image: radial-gradient(circle at 100% 150%, #EEDBC5 24%, #E5CFB7 25%, #E5CFB7 28%, #EEDBC5 29%, #EEDBC5 36%, #E5CFB7 37%, #E5CFB7 40%, #EEDBC5 41%, #EEDBC5 48%, #E5CFB7 49%, #E5CFB7 52%, #EEDBC5 53%, #EEDBC5 60%, #E5CFB7 61%, #E5CFB7 64%, #EEDBC5 65%),
+    radial-gradient(circle at 0% 150%, #EEDBC5 24%, #E5CFB7 25%, #E5CFB7 28%, #EEDBC5 29%, #EEDBC5 36%, #E5CFB7 37%, #E5CFB7 40%, #EEDBC5 41%, #EEDBC5 48%, #E5CFB7 49%, #E5CFB7 52%, #EEDBC5 53%, #EEDBC5 60%, #E5CFB7 61%, #E5CFB7 64%, #EEDBC5 65%),
+    radial-gradient(circle at 50% 100%, #EEDBC5 10%, #E5CFB7 11%, #E5CFB7 14%, #EEDBC5 15%, #EEDBC5 22%, #E5CFB7 23%, #E5CFB7 26%, #EEDBC5 27%, #EEDBC5 34%, #E5CFB7 35%, #E5CFB7 38%, #EEDBC5 39%, #EEDBC5 46%, #E5CFB7 47%, #E5CFB7 50%, #EEDBC5 51%);
+  background-size: 80px 40px;
+}
+
+.bg-washi-texture {
+  background-color: #EEDBC5;
+  background-image: radial-gradient(rgba(28, 25, 24, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
